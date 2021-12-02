@@ -1,0 +1,15 @@
+.wrapp-produktet-title {
+    padding: 120px 0;
+    position: relative;
+    z-index: 124;
+}
+.produktet-slide {
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.produktet-slide-item {
+    width: 33%;
+    text-align: center;
+
+}

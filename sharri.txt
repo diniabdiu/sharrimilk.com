@@ -1,0 +1,10 @@
+me mare divin qe bohet rotate on scroll, and then me punu inside divit.
+https://codepen.io/doraby/pen/LYExbwz
+animation-iteration-count:infinite;
+
+home/
+    img slider foto me u fix
+    produktet ne balline kur te klikon kosin met qit te kosat ne fillim jo ne brendi
+    lexo me shume ne balline mu ndreq se ka glitch, tani mu kopju edhe te kompania
+    subscribe me ardh email
+    

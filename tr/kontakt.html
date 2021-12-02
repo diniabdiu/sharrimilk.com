@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Qumështorja Sharri</title>
+  <link rel="icon" href="../assets/img/sharrifav.svg" sizes="any" type="image/svg+xml">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/flickity.css">
+    <link rel="stylesheet" href="../../assets/main.css">
+    <link rel="stylesheet" href="../assets/font-tr.css">
+
+
+</head>
+<body style="background-color: #fff;">
+  <nav class="navbar navbarEdit smart-scroll">
+    <a class="navbar-brand logoCenter" href="index.html"><img class="img-fluid"  src="../../assets/img/Group 1225.svg" alt=""> </a>
+    <button class="navbar-toggler ml-auto" type="button" data-trigger="#main_nav">      
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26">
+        <g id="Group_6479" data-name="Group 6479" transform="translate(0 1)">
+          <g id="Group_10" data-name="Group 10">
+            <g id="Group_9" data-name="Group 9">
+              <line id="Line_1" data-name="Line 1" x2="25" fill="none" stroke="#000" stroke-width="2"/>
+              <line id="Line_2" data-name="Line 2" x2="25" transform="translate(0 12)" fill="none" stroke="#000" stroke-width="2"/>
+              <line id="Line_3" data-name="Line 3" x2="25" transform="translate(0 24)" fill="none" stroke="#000" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </svg>      
+    </button>
+    <div class="navbari-collapse " id="main_nav">
+      <div class="offcanvas-header navMobile"> 
+        <div class="dropdown displayD">
+          <button class="dropdown-toggle languageBtn" data-toggle="dropdown" href="#">TR</button>
+          <ul class="dropdown-menu languageMenu" role="menu" aria-labelledby="dLabel">            
+            <li><a href="../kontakt.html">AL</a></li>
+            <li class="divider"></li>
+            <li><a href="../en/kontakt.html">EN</a></li>
+          </ul>
+        </div>   
+
+        <button class="burgerMenuX btn-close float-right"> <img src="../assets/img/burgerMenuX.svg" class="img-fluid" alt="">
+      </button>
+      </div>
+      <ul class="navbar-nav navMobileList">
+        <li class="nav-item active"> <a class="nav-link" href="index.html">Ana Sayfa </a> </li>
+        <li class="nav-item"><a class="nav-link" href="kompania.html"> Şirket </a></li>
+        <li class="nav-item"><a class="nav-link" href="produktet/"> Ürünler </a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> İlerişimde Bulununuz</a></li>
+        <li>
+          <div class="navSocial navSocialMob displayM">
+            <a href="https://www.facebook.com/Sharrimilk">
+              <img src="../assets/img/Path 70.svg" class="img-fluid mr-3" alt="">
+            </a>
+            <a href="https://www.instagram.com/qumeshtorjasharri/">
+              <img src="../assets/img/Path 69.svg" class="img-fluid " alt="">
+            </a>
+            <div class="dropdown">
+              <button class="dropdown-toggle languageBtn" data-toggle="dropdown" href="#">TR</button>
+              <ul class="dropdown-menu languageMenu" role="menu" aria-labelledby="dLabel">            
+                <li><a href="../kontakt.html">AL</a></li>
+                <li class="divider"></li>
+                <li><a href="../en/kontakt.html">EN</a></li>
+              </ul>
+            </div>  
+          </div>
+        </li>
+      </ul>
+      <div class="navSocial displayD">
+        <a href="https://www.facebook.com/Sharrimilk">
+          <img src="../assets/img/Path 70.svg" class="img-fluid mr-3" alt="">
+        </a>
+        <a href="https://www.instagram.com/qumeshtorjasharri/">
+          <img src="../assets/img/Path 69.svg" class="img-fluid " alt="">
+        </a>
+      </div>
+    </div> <!-- navbar-collapse.// -->
+  </nav>
+  <main style="margin-top: -176px;">
+    <div class="position-relative">
+        <img src="../assets/img/Group 6482.svg" class="img-fluid displayD" alt="">
+        <img src="../assets/img/Group 6482-mob.svg" class="img-fluid displayM" alt="">
+        <h1 class="kontaktAbsolute">
+          SORUNUZ VAR MI?
+          
+        </h1>
+    </div>
+    <div class="text-center w-100">
+        <h1 class="kontaktTitle">
+            <span>Aklınızda kalan bir şey var mı?
+            </span>
+          
+
+
+            Bunu duymayı çok isteriz<br>
+            Sizi tanıyabilmemiz ve görüşlerinizi anlayabilmemiz için formumuzu doldurunuz.
+            <br>
+           
+            <span>Sharri Süt Fabrikası</span> hakkında merak ettiğiniz her şey için bizimle iletişime geçmekten çekinmeyiniz.
+
+
+        </h1>
+        <form action="POST" name="sentMessage" id="contactForm" novalidate>
+            <div class="kontaktForm">
+                <input type="text" name="name" id="name" placeholder="AD SOYAD">
+                <input type="number" name="phone" id="phone" placeholder="TELEFON NUMARANIZ">
+                <input type="text" name="cities" id="cities" placeholder="ŞEHRİNİZ">
+                <input type="email" name="email" id="email" placeholder="ELMEK (ELEKTORNİK MEKTUP) ADRESİNİZ">
+                <textarea name="message" id="message" cols="10" rows="5" placeholder="İLETINİZİ YAZINIZ "></textarea>
+                <button type="submit" class="kontaktBtn">GÖNDER</button>
+                <div id="success" class="mt-5"></div>
+            </div>
+        </form>
+    </div>
+  </main>
+  
+  <footer style="background-color: #01135D;position: relative;">
+    <img src="../assets/img/Group 12.svg" class="img-fluid img-left" alt="">
+    <!-- <img src="assets/img/Group 6478.svg" class="img-fluid img-right" alt=""> -->
+    <div class="footer">
+      <div class="footerLinks">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="kompania.html">Şirket</a>
+        <a href="produktet/">Ürünler</a>
+        <a href="#">İlerişimde Bulununuz</a>
+      </div>  
+        <img src="../assets/img/Group 1248.png" class="img-fluid centerImage" alt="">     
+      <div class="footerDetails">
+        <h6>Rr. Turgut Ozal - Besim Shala p.n.<br> 20000 Prizren, Kosovo</h6>
+        <br>
+        <a href="tel:+38349190340">+383 49 190 340 / +383 44 190 340</a><br>
+        <a href="">www.sharrimilk.com</a><br>
+        <a href="mailto:info@sharrimilk.com">info@sharrimilk.com</a><br>
+        <a href="mailto:sharrimilkpz@hotmail.com">sharrimilkpz@hotmail.com</a>
+      </div>
+    </div>
+  </footer>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="../jqBootstrapValidation.js"></script>
+    <script src="../assets/flickity.js"></script>
+    <script src="../contact.js"></script>  
+    <script src="../assets/main.js"></script>
+    </body>
+</html>
