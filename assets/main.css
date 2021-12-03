@@ -141,7 +141,12 @@ body {
 	position: sticky;
 	top: 0;
 	z-index: 123;
+	justify-content: flex-end;
 	padding: 0 120px;
+	display: flex;
+}
+.navbarEdit .dropdown {
+	margin-right: 30px;
 }
 .logoCenter {
 	position: absolute;
@@ -1434,6 +1439,10 @@ body {
 	}
 	.navMobile {
 		position: relative;
+	}
+	.navbarEdit .dropdown { 
+		margin-top: 70px;
+		margin-right: 15px;
 	}
 	.navbarEdit .navbar-toggler {
 		padding-right: 40px;
